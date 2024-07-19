@@ -5,7 +5,6 @@
 ## Features
 - Convert individual decimal numbers to hexadecimal.
 - Process decimal numbers stored in a text file and output their hexadecimal representations.
-- Easy to build and run on any platform.
 
 ## Usage
 ### Convert a Single Decimal Number
@@ -30,7 +29,7 @@ Replace `<INPUT_FILE>` with the path to your input file containing decimal numbe
 ## Installation
 Currently there is a [precompiled version](https://github.com/Toaaa/dec2hex/releases) for **Windows only**.
 
-To build the **dec2hex** application, make sure you have Rust installed on your system. Then, clone this repository and navigate to its directory:
+To build **dec2hex**, make sure you have a working installation of the Rust toolchain (typically installed via [rustup](https://rustup.rs/)) on your system. Then, clone this repository and navigate to its directory:
 ```sh
 git clone https://github.com/toaaa/dec2hex.git
 cd dec2hex
@@ -41,3 +40,7 @@ Next, build the application using Cargo:
 cargo build --release
 ```
 Once the build process is complete, you can find the executable file in the `target/release` directory.
+Alternatively, you can run it using:
+```sh
+cargo run --release
+```
