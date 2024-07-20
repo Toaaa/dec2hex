@@ -5,6 +5,7 @@ authors = ["Toa Toastrejn <toa@toaaa.de>"]
 edition = "2021"
 description = "Simple cli tool to convert decimal to hexadecimal, even in bulk."
 repository = "https://github.com/toaaa/dec2hex"
+license-file = "LICENSE.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
